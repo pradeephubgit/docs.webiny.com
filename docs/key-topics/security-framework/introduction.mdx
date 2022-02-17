@@ -23,7 +23,7 @@ Before we can talk about Webiny Security Framework, we need to explain a few key
 
 Authentication is a process in which the application attempts to verify the credentials provided by the client (e.g., a browser, a mobile app, or another application), and retrieves identity information using those verified credentials.
 
-Credentials can be a combination of a username and a password, a [JWT token](https://en.wikipedia.org/wiki/JSON_Web_Token), etc. Every time a request is made to your API by a client, that request will most likely contain a set of credentials (usually using the [Authorization HTTP request header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)) that will allow you to identify the client.
+Credentials can be a combination of a username and a password, a [JSON Web Token](https://en.wikipedia.org/wiki/JSON_Web_Token), etc. Every time a request is made to your API by a client, that request will most likely contain a set of credentials (usually using the [Authorization HTTP request header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)) that will allow you to identify the client.
 
 Once the identity is established, your application will usually keep that information available for the rest of the system to use, for the duration of that particular request.
 
